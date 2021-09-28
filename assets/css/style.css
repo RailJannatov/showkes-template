@@ -1,0 +1,361 @@
+.container .left-side img {
+    width: 200px;
+    height: 100px;
+}
+
+.container .left-side {
+    padding: 15px 0px;
+    margin-left: -35px;
+}
+
+header {
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+}
+
+.container .right-side {
+    padding: 9px 28px;
+}
+
+.container .right-side ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-right: -116px;
+}
+
+.container .left-side img {
+    margin-top: -30px;
+    margin-left: 77px;
+
+}
+
+.container .right-side ul a {
+    font-size: 18px;
+}
+
+.container .right-side ul li {
+    margin-right: 20px;
+
+}
+
+.container .right-side ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+#slider {
+    background-image: url(/assets/image/slider-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#slider .slider-title h3 {
+    font-size: 26px;
+    color: #837e7e;
+    font-weight: 300;
+}
+
+#slider .slider-title h1 {
+    font-weight: 900;
+    font-size: 60px;
+    color: #999090;
+}
+
+#slider .slider-title {
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 38%;
+}
+
+#slider .slider-title button {
+    font-weight: 600;
+    padding: 10px 25px;
+    border: none;
+    margin-top: 30px;
+}
+
+#about-me {
+    padding-top: 100px;
+    border: 1px solid #ddd;
+}
+
+#about-me .about-me-title {
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+#about-me .about-me-title p {
+    margin-top: 20px;
+}
+
+#about-me .about-me-title h2 {
+    font-weight: 800;
+    font-size: 30px;
+    position: relative;
+}
+
+.line:after {
+    width: 75px;
+    background-color: gray;
+    content: "";
+    position: absolute;
+    left: 47%;
+    top: 112%;
+    height: 1px;
+}
+
+#about-me .about-me-text h4 {
+    font-size: 18px;
+}
+
+#about-me .about-me-text p {
+    color: #777;
+    margin-top: 20px;
+}
+
+#about-me .about-me-text button {
+    background-color: #000000;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 600;
+}
+
+#what-i-do {
+    padding-top: 94px;
+}
+
+#what-i-do .what-i-do-title {
+    text-align: center;
+    margin-bottom: 59px;
+}
+
+#what-i-do .what-i-do-title h2 {
+    position: relative;
+}
+
+#what-i-do .what-i-do-title p {
+    color: #ddd;
+    margin-bottom: 59px;
+    margin-top: 17px;
+
+}
+
+#what-i-do .item {
+    text-align: center;
+    padding: 15px 42px;
+}
+
+#what-i-do .item i {
+    font-size: 40px;
+}
+
+#what-i-do .item h5 {
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 19px;
+}
+
+#what-i-do .item p {
+    font-size: 15px;
+    color: #ddd;
+}
+
+#my-works {
+    padding-top: 70px;
+    border: 1px solid #ddd;
+    padding-bottom: 85px;
+}
+
+#my-works .my-works-title {
+    text-align: center;
+}
+
+#my-works .my-works-title h3 {
+    font-weight: 800;
+    font-size: 30px;
+    position: relative;
+}
+
+#my-works .my-works-title p {
+    margin-top: 30px;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+#my-works .col-4 .img-fluid {
+    width: 377px;
+    height: 259px;
+}
+
+#my-works .my-works-description {
+
+    text-align: center;
+    margin-top: 91px;
+    padding: 0px 250px;
+}
+
+#my-works .my-works-description p {
+    font-size: 18px;
+}
+
+#my-works .my-works-description h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#my-works .my-works-description .header-descr {
+    font-size: 14px;
+}
+
+#contact-me .form {
+    text-align: center;
+}
+
+#contact-me {
+    padding-top: 25px;
+}
+
+#contact-me .contact-me-title {
+    margin-bottom: 35px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+#contact-me .contact-me-title h3 {
+    font-size: 30px;
+    position: relative;
+
+}
+
+#contact-me .contact-me-title p {
+    margin-top: 20px;
+}
+
+
+#contact-me .form .email input {
+    height: 33px;
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+
+#contact-me .form .text input {
+    height: 33px;
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+#contact-me .form .textarea textarea {
+    width: 50%;
+}
+
+#contact-me .form button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    margin-top: 25px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 64px;
+}
+
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 53px 0px;
+}
+
+footer .footer-head {
+    margin-bottom: 20px;
+    line-height: 28px
+}
+
+footer .footer-icons {
+    margin-bottom: 35px;
+}
+
+@media only screen and (max-width:992px) {
+    .container {
+        width: 970px;
+    }
+
+    .col-6 {
+        width: calc(100%/12*6);
+    }
+
+    .col-3 {
+        width: calc(100%/12*3);
+    }
+}
+
+@media only screen and (max-width: 778px) {
+    .container {
+        width: 750px;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 98%;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    #slider {
+        width: 100%;
+        background-image: url(/assets/image/slider-image.jpg);
+        background-size: cover;
+
+    }
+
+
+    #slider .slider-title h1 {
+        font-size: 16px;
+    }
+
+    .right-side {
+        margin-left: -81px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        width: 550px;
+    }
+
+    .col-sm-12 {
+        width: 98%;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .slider-sd-h1 {
+        font-size: 0.5rem;
+    }
+
+
+}
