@@ -1,12 +1,19 @@
-.container .left-side img {
+header .nav-logo img {
     width: 200px;
     height: 100px;
+    margin-top: -30px;
+    margin-left: 77px;
 }
 
-.container .left-side {
+header .nav-logo {
     padding: 15px 0px;
     margin-left: -35px;
 }
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
 
 header {
     position: fixed;
@@ -17,11 +24,15 @@ header {
     height: 70px;
 }
 
-.container .right-side {
+header .fas {
+    display: none;
+}
+
+header .nav-right-side {
     padding: 9px 28px;
 }
 
-.container .right-side ul {
+header .nav-right-side ul {
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
@@ -29,28 +40,19 @@ header {
     margin-right: -116px;
 }
 
-.container .left-side img {
-    margin-top: -30px;
-    margin-left: 77px;
-
-}
-
-.container .right-side ul a {
-    font-size: 18px;
-}
-
-.container .right-side ul li {
+header .nav-right-side ul li {
     margin-right: 20px;
 
 }
 
-.container .right-side ul li a {
+header .nav-right-side ul li a {
     text-decoration: none;
     color: gray;
+    font-size: 18px;
 }
 
 #slider {
-    background-image: url(/assets/image/slider-image.jpg);
+    background-image: url(../image/slider-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -71,8 +73,9 @@ header {
 #slider .slider-title {
     text-align: center;
     position: absolute;
-    left: 25%;
-    top: 38%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #slider .slider-title button {
@@ -194,11 +197,6 @@ header {
     margin-bottom: 20px;
 }
 
-#my-works .col-4 .img-fluid {
-    width: 377px;
-    height: 259px;
-}
-
 #my-works .my-works-description {
 
     text-align: center;
@@ -292,31 +290,98 @@ footer .footer-icons {
     margin-bottom: 35px;
 }
 
-@media only screen and (max-width:992px) {
-    .container {
-        width: 970px;
+
+@media only screen and (min-width: 320px) {
+    #slider .slider-title h1 {
+        font-size: 8px;
     }
 
-    .col-6 {
-        width: calc(100%/12*6);
+    header .nav-links li {
+        display: none;
     }
 
-    .col-3 {
-        width: calc(100%/12*3);
+    header .fas {
+        display: block;
+    }
+
+    header .nav-logo img {
+        width: 30px;
+        height: 30px;
+
+    }
+
+    #about-me .about-img {
+        width: 280px;
+    }
+
+    #about-me h4 {
+        text-align: center;
+    }
+
+    #my-works .my-works-description {
+        text-align: center;
+        margin-top: 89px;
+        padding: 0px 23px;
+    }
+
+    .img-fluid {
+        width: 282px;
+        height: 259px;
+    }
+
+    #about-me .text-resp-center {
+        text-align: center;
     }
 }
 
-@media only screen and (max-width: 778px) {
-    .container {
-        width: 750px;
+
+
+
+
+
+
+@media only screen and (min-width: 576px) {
+    .text-center {
+        text-align: center;
     }
 
-    .col-md-6 {
-        width: 50%;
+    .slider-sd-h1 {
+        font-size: 0.5rem;
     }
 
-    .col-md-12 {
-        width: 98%;
+    header .nav-links li {
+        display: none;
+    }
+
+    header .fas {
+        display: block;
+        margin-top: 20px;
+    }
+
+    #slider .slider-title h1 {
+        font-size: 30px;
+    }
+
+    header .nav-logo img {
+        width: 70px;
+        height: 70px;
+        margin-left: -20px;
+    }
+
+    #about-me .about-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header .fas {
+        display: block;
+        margin-top: 20px;
+    }
+
+    header .nav-links li {
+        display: none;
     }
 
     .text-center {
@@ -327,35 +392,41 @@ footer .footer-icons {
         width: 100%;
         background-image: url(/assets/image/slider-image.jpg);
         background-size: cover;
-
     }
 
 
-    #slider .slider-title h1 {
-        font-size: 16px;
-    }
-
-    .right-side {
+    .nav-right-side {
         margin-left: -81px;
+    }
+
+    header .nav-logo img {
+        width: 120px;
+        height: 120px;
+        margin-left: -20px;
+
+    }
+
+    #about-me .about-img {
+        width: 200px;
     }
 }
 
-@media only screen and (max-width: 576px) {
-    .container {
-        width: 550px;
+@media only screen and (min-width:992px) {
+    header .fas {
+        display: none;
+
     }
 
-    .col-sm-12 {
-        width: 98%;
+    header .nav-links li {
+        display: block;
     }
 
-    .text-center {
-        text-align: center;
+    #slider .slider-title h1 {
+        font-size: 50px;
     }
 
-    .slider-sd-h1 {
-        font-size: 0.5rem;
+    #about-me .about-img {
+        width: 400px;
     }
-
 
 }
